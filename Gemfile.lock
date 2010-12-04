@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    cinch (1.0.2)
+    require_all (1.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cinch
+  require_all
