@@ -2,7 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'cinch'
 require 'require_all'
-require_all 'plugins'
+require File.dirname(__FILE__) + '/plugins/access.rb'
 
 bot = Cinch::Bot.new do
   configure do |c|
@@ -16,5 +16,4 @@ bot = Cinch::Bot.new do
     bot.join "#test"
   end
 end
-
 bot.start
