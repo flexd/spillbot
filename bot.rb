@@ -9,7 +9,7 @@ bot = Cinch::Bot.new do
     c.nick            = "spillbot"
     c.server          = "irc.coldfront.net"
     c.verbose         = true
-    c.plugins.plugins = [Access]
+    c.plugins.plugins = [Spotify]
   end
 
   on :connect do

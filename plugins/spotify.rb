@@ -1,0 +1,1 @@
+/Users/Kristoffer/code/Ruby/cinch-spotify/plugins/spotify.rb
